@@ -2,7 +2,7 @@
 <testng-results skipped="2" failed="1" ignored="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15164" started-at="2019-01-22T07:39:44Z" finished-at="2019-01-22T07:39:59Z">
+  <suite name="Suite" duration-ms="12664" started-at="2019-01-22T08:44:59Z" finished-at="2019-01-22T08:45:11Z">
     <groups>
       <group name="Sanity">
         <method signature="HomePageTests.verifyLogo()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyLogo" class="com.app.tests.HomePageTests"/>
@@ -11,17 +11,17 @@
         <method signature="HomePageTests.verifyNewsletterInputAlert()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNewsletterInputAlert" class="com.app.tests.HomePageTests"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="15164" started-at="2019-01-22T07:39:44Z" finished-at="2019-01-22T07:39:59Z">
+    <test name="Test" duration-ms="12664" started-at="2019-01-22T08:44:59Z" finished-at="2019-01-22T08:45:11Z">
       <class name="com.app.tests.HomePageTests">
-        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyLogo" duration-ms="57" started-at="2019-01-22T07:39:44Z" finished-at="2019-01-22T07:39:44Z">
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyLogo" duration-ms="53" started-at="2019-01-22T08:44:59Z" finished-at="2019-01-22T08:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method status="PASS" signature="verifyMenuNavigation()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyMenuNavigation" duration-ms="9942" started-at="2019-01-22T07:39:44Z" finished-at="2019-01-22T07:39:54Z">
+        <test-method status="PASS" signature="verifyMenuNavigation()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyMenuNavigation" duration-ms="9161" started-at="2019-01-22T08:44:59Z" finished-at="2019-01-22T08:45:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuNavigation -->
-        <test-method status="SKIP" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNavTitles" duration-ms="151" started-at="2019-01-22T07:39:54Z" finished-at="2019-01-22T07:39:54Z">
+        <test-method status="SKIP" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNavTitles" duration-ms="142" started-at="2019-01-22T08:45:08Z" finished-at="2019-01-22T08:45:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed: T-Shirts page is not displayed expected [false] but found [true]]]>
@@ -63,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavTitles -->
-        <test-method status="SKIP" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNavTitles" duration-ms="125" started-at="2019-01-22T07:39:54Z" finished-at="2019-01-22T07:39:55Z">
+        <test-method status="SKIP" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNavTitles" duration-ms="119" started-at="2019-01-22T08:45:08Z" finished-at="2019-01-22T08:45:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed: T-Shirts page is not displayed expected [false] but found [true]]]>
@@ -105,7 +105,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavTitles -->
-        <test-method status="FAIL" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNavTitles" duration-ms="124" started-at="2019-01-22T07:39:55Z" finished-at="2019-01-22T07:39:55Z">
+        <test-method status="FAIL" signature="verifyNavTitles()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNavTitles" duration-ms="121" started-at="2019-01-22T08:45:08Z" finished-at="2019-01-22T08:45:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed: T-Shirts page is not displayed expected [false] but found [true]]]>
@@ -147,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavTitles -->
-        <test-method status="PASS" signature="verifyNewsletterInputAlert()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNewsletterInputAlert" duration-ms="4726" started-at="2019-01-22T07:39:55Z" finished-at="2019-01-22T07:39:59Z">
+        <test-method status="PASS" signature="verifyNewsletterInputAlert()[pri:0, instance:com.app.tests.HomePageTests@5890e879]" name="verifyNewsletterInputAlert" duration-ms="3029" started-at="2019-01-22T08:45:08Z" finished-at="2019-01-22T08:45:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewsletterInputAlert -->

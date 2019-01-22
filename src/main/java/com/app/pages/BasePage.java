@@ -28,10 +28,10 @@ public class BasePage {
 		public BasePage(){
 			if(driver == null){
 			if (browser.equals("chrome")){
-				System.setProperty("webdriver.chrome.driver", "/Users/arunkumarselvam/Documents/eclipse-workspace/Projects/chromedriver");
+				System.setProperty("webdriver.chrome.driver", "/Users/arunkumarselvam/Documents/workspace/mySeleniumProj/src/test/resources/chromedriver");
 				driver = new ChromeDriver();
 			}else if(browser.equals("firefox")){
-				System.setProperty("webdriver.gecko.driver", "/Users/arunkumarselvam/Documents/eclipse-workspace/Projects/geckodriver");
+				System.setProperty("webdriver.gecko.driver", "/Users/arunkumarselvam/Documents/workspace/mySeleniumProj/src/test/resources/geckodriver");
 				driver = new FirefoxDriver();
 			}
 			//driver.manage().window().maximize();
