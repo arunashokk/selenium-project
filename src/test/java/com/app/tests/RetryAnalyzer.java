@@ -8,6 +8,7 @@ import org.testng.ITestResult;
 		int counter = 0;
 		int retryLimit = 2;
 		
+		@Override
 		public boolean retry(ITestResult result) {
 			if(counter < retryLimit){
 				counter++;
