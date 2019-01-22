@@ -2,16 +2,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.app.pages.AnnotationTransformer"/>
+    <listener class-name="com.app.tests.AnnotationTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.app.tests.FailureTestCase">
+      <class name="com.app.tests.HomePageTests">
         <methods>
-          <include name="Test3"/>
-          <include name="Test2"/>
+          <include name="verifyNavTitles"/>
         </methods>
-      </class> <!-- com.app.tests.FailureTestCase -->
+      </class> <!-- com.app.tests.HomePageTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
