@@ -14,6 +14,7 @@
       <class name="com.app.tests.HomePageTests">
         <methods>
           <include name="verifyNavTitles"/>
+          <include name="verifyMenuNavigation"/>
         </methods>
       </class> <!-- com.app.tests.HomePageTests -->
     </classes>

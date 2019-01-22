@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,  2 skipped,  3 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,  3 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -114,6 +114,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
                     <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.app.tests.HomePageTests" hash-for-method="verifyMenuNavigation">verifyMenuNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.app.tests.HomePageTests" hash-for-method="verifyNavTitles">verifyNavTitles</a> <!-- method navigator-link -->
@@ -185,6 +190,42 @@
               <span class="class-name">com.app.tests.HomePageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMenuNavigation">
+                  </a> <!-- verifyMenuNavigation -->
+                  <span class="method-name">verifyMenuNavigation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class = &apos;cat-name&apos;]&quot;}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:8b1:bd7a:4d41:2593%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/nn/bmck2479473...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53983}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: b3f0f6c13f8c365818e29ebf24501a7c
+*** Element info: {Using=xpath, value=//*[@class = &apos;cat-name&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at com.app.tests.HomePageTests.verifyMenuNavigation(HomePageTests.java:42)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyNavTitles">
@@ -318,36 +359,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyMenuNavigation')
 data.setCell(0, 2, 'com.app.tests.HomePageTests')
-data.setCell(0, 3, 9161);
+data.setCell(0, 3, 16390);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyNewsletterInputAlert')
 data.setCell(1, 2, 'com.app.tests.HomePageTests')
-data.setCell(1, 3, 3029);
+data.setCell(1, 3, 3346);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyNavTitles')
+data.setCell(2, 1, 'verifyMenuNavigation')
 data.setCell(2, 2, 'com.app.tests.HomePageTests')
-data.setCell(2, 3, 142);
+data.setCell(2, 3, 296);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyNavTitles')
 data.setCell(3, 2, 'com.app.tests.HomePageTests')
-data.setCell(3, 3, 121);
+data.setCell(3, 3, 156);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyNavTitles')
 data.setCell(4, 2, 'com.app.tests.HomePageTests')
-data.setCell(4, 3, 119);
+data.setCell(4, 3, 134);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyLogo')
+data.setCell(5, 1, 'verifyNavTitles')
 data.setCell(5, 2, 'com.app.tests.HomePageTests')
-data.setCell(5, 3, 53);
+data.setCell(5, 3, 121);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogo')
+data.setCell(6, 2, 'com.app.tests.HomePageTests')
+data.setCell(6, 3, 50);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -380,25 +425,29 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyMenuNavigation</span>
-                <span class="method-start">55 ms</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMenuNavigation</span>
+                <span class="method-start">356 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavTitles</span>
-                <span class="method-start">9218 ms</span>
+                <span class="method-start">16748 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavTitles</span>
-                <span class="method-start">9363 ms</span>
+                <span class="method-start">16906 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyNavTitles</span>
-                <span class="method-start">9483 ms</span>
+                <span class="method-start">17042 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNewsletterInputAlert</span>
-                <span class="method-start">9606 ms</span>
+                <span class="method-start">17166 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
