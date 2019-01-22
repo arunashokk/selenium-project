@@ -48,6 +48,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>sanitytestng.xml</suiteXmlFile>
 						<suiteXmlFile>failurererun.xml</suiteXmlFile>
+						
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
