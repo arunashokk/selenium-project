@@ -54,7 +54,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>sanitytestng.xml</suiteXmlFile>
 						<suiteXmlFile>failurererun.xml</suiteXmlFile>
-						
+						<forkMode>never</forkMode>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
