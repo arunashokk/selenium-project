@@ -1,4 +1,4 @@
-package com.app.pages;
+package com.app.tests;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

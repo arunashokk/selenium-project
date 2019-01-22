@@ -1,4 +1,4 @@
-package com.app.pages;
+package com.app.tests;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

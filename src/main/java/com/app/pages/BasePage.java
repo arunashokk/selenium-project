@@ -1,10 +1,7 @@
 package com.app.pages;
 
 import java.io.File;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -16,10 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.IAnnotationTransformer;
-import org.testng.IRetryAnalyzer;
-import org.testng.ITestResult;
-import org.testng.annotations.ITestAnnotation;
+
 
 public class BasePage {
 
